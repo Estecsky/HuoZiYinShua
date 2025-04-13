@@ -5,7 +5,7 @@
 import soundfile as sf
 import psola
 import numpy as np
-from playsound import playsound
+# from playsound import playsound
 from pypinyin import lazy_pinyin
 import json
 from pathlib import Path
@@ -144,11 +144,11 @@ class huoZiYinShua:
 	
 	
 	#直接播放
-	def directPlay(self, rawData, tempPath="./HZYSTempOutput/temp.wav",
-					inYsddMode=False, pitchMult=1, speedMult=1, norm=False, reverse=False):
-		self.__concatenate(rawData, inYsddMode, pitchMult, speedMult, norm, reverse)
-		self.__export(tempPath)
-		playsound(tempPath)
+	# def directPlay(self, rawData, tempPath="./HZYSTempOutput/temp.wav",
+	# 				inYsddMode=False, pitchMult=1, speedMult=1, norm=False, reverse=False):
+	# 	self.__concatenate(rawData, inYsddMode, pitchMult, speedMult, norm, reverse)
+	# 	self.__export(tempPath)
+	# 	playsound(tempPath)
 	
 	
 	
